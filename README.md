@@ -14,10 +14,10 @@ It's a management system for ferries. All the routes, schedules, vessels, bookin
 ## How to use?
 1. git clone the project
 2. Setup redis
-    a. Download redis windows (php 8.0.0, windows 64 bit, thread safety version) https://pecl.php.net/package/redis/5.3.3/windows
-    b. **Optional:** can set up redis-server as environmental variable so that you can run it from anywhere.
-    c. Copy phpredis thread safety php version 8 folder’s dll (downloaded file) to the xampp/php/ext folder. E.g. C:\xampp\php\ext
-    d. Open the php.ini in file located in xampp/php. Add this **extension=php_redis.dll** . Any location is fine. For example, at the top.
+    1. Download redis windows (php 8.0.0, windows 64 bit, thread safety version) https://pecl.php.net/package/redis/5.3.3/windows
+    2. **Optional:** can set up redis-server as environmental variable so that you can run it from anywhere.
+    3. Copy phpredis thread safety php version 8 folder’s dll (downloaded file) to the xampp/php/ext folder. E.g. C:\xampp\php\ext
+    4. Open the php.ini in file located in xampp/php. Add this **extension=php_redis.dll** . Any location is fine. For example, at the top.
 3. Download https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100
 4. Open redis-server. Keep it open
 5. Open project & run **npm install**

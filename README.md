@@ -1,9 +1,9 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-
-##What is this?
+## What is this?
 It's a management system for ferries. All the routes, schedules, vessels, booking are done through the system. Actors are admin, staff, agent, and user. 
 
-##Requirements
+## Requirements
 1. MySQL server
 2. Laravel 8.0+ (php 8.0)
 3. Composer
@@ -11,7 +11,7 @@ It's a management system for ferries. All the routes, schedules, vessels, bookin
 5. xampp
 
 
-##How to use?
+## How to use?
 1. git clone the project
 2. Setup redis
     a. Download redis windows (php 8.0.0, windows 64 bit, thread safety version) https://pecl.php.net/package/redis/5.3.3/windows
@@ -39,7 +39,7 @@ It's a management system for ferries. All the routes, schedules, vessels, bookin
     c. Agent -  email: agent@mail.com pass: test
     d. Merchant -  email: merchant@mail.com pass: test
 
-##Features
+## Features
 1. Registration
 2. Forgot password
 3. Email verification

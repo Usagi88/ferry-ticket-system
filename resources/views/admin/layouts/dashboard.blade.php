@@ -280,7 +280,7 @@
         <!-- FOOTER -->
         <footer class="sticky-footer">
           <div class="text-center my-auto">
-            <span>Copyright © Your Website 2021</span>
+            <span>Copyright © Your Website @php echo date('Y') @endphp</span>
           </div>
         </footer>
       </div>
